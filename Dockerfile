@@ -1,0 +1,13 @@
+FROM node:16
+
+WORKDIR /app
+
+COPY ./frontend/package*.json ./
+
+# RUN npm install
+
+# COPY . .
+
+# EXPOSE 3300
+
+# CMD [ "npm", "run", "dev" ]
